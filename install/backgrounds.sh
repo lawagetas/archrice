@@ -1,4 +1,4 @@
-BACKGROUNDS_DIR=~/.config/omarchy/backgrounds/
+BACKGROUNDS_DIR=~/.config/archrice/backgrounds/
 
 download_background_image() {
   local url="$1"
