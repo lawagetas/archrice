@@ -5,4 +5,5 @@ yay -S --noconfirm --needed \
   nautilus sushi keepassxc \
   brave-bin vlc \
   slack-desktop telegram-desktop \
-  evince imv
+  evince imv \
+  proton-vpn-gtk-app
