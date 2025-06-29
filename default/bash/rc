@@ -1,6 +1,6 @@
-source ~/.local/share/omarchy/default/bash/shell
-source ~/.local/share/omarchy/default/bash/aliases
-source ~/.local/share/omarchy/default/bash/functions
-source ~/.local/share/omarchy/default/bash/prompt
-source ~/.local/share/omarchy/default/bash/init
-source ~/.local/share/omarchy/default/bash/envs
+source ~/.local/share/archrice/default/bash/shell
+source ~/.local/share/archrice/default/bash/aliases
+source ~/.local/share/archrice/default/bash/functions
+source ~/.local/share/archrice/default/bash/prompt
+source ~/.local/share/archrice/default/bash/init
+source ~/.local/share/archrice/default/bash/envs
