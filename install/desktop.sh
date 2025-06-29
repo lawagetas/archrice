@@ -4,4 +4,5 @@ yay -S --noconfirm --needed \
   wl-clip-persist clipse \
   nautilus sushi keepassxc \
   brave-bin vlc \
+  slack telegram \
   evince imv
