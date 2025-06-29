@@ -8,12 +8,12 @@ gsettings set org.gnome.desktop.interface color-scheme "prefer-dark"
 
 # Setup theme links
 mkdir -p ~/.config/omarchy/themes
-for f in ~/.local/share/omarchy/themes/*; do ln -s "$f" ~/.config/omarchy/themes/; done
+for f in ~/.local/share/archrice/themes/*; do ln -s "$f" ~/.config/omarchy/themes/; done
 
 # Set initial theme
 mkdir -p ~/.config/omarchy/current
 ln -snf ~/.config/omarchy/themes/tokyo-night ~/.config/omarchy/current/theme
-source ~/.local/share/omarchy/themes/tokyo-night/backgrounds.sh
+source ~/.local/share/archrice/themes/tokyo-night/backgrounds.sh
 ln -snf ~/.config/omarchy/backgrounds/tokyo-night ~/.config/omarchy/current/backgrounds
 ln -snf ~/.config/omarchy/current/backgrounds/1-Pawel-Czerwinski-Abstract-Purple-Blue.jpg ~/.config/omarchy/current/background
 

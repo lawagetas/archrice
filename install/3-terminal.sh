@@ -3,4 +3,4 @@ yay -S --noconfirm --needed \
   eza fzf ripgrep zoxide \
   wl-clipboard fastfetch btop \
   man tldr less whois plocate \
-  alacritty
+  zsh ghostty
