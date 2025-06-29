@@ -7,6 +7,8 @@ cp -R ~/.local/share/archrice/config/* ~/.config/
 # Setup Oh My ZSH
 # sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
+sudo chsh -s $(which fish) $USER
+
 # Login directly as user, rely on disk encryption + hyprlock for security
 # sudo mkdir -p /etc/systemd/system/getty@tty1.service.d
 # sudo tee /etc/systemd/system/getty@tty1.service.d/override.conf >/dev/null <<EOF
