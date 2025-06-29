@@ -1,6 +1,11 @@
 yay -S --noconfirm --needed \
-  cargo clang llvm mise \
+  cargo opam \
   imagemagick \
-  mariadb-libs postgresql-libs \
   github-cli \
-  lazygit lazydocker
+  lazygit
+
+# to consider for the future
+#   mise
+#   clang
+#   llvm
+#   docker
