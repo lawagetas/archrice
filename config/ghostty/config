@@ -1,0 +1,5 @@
+gtk-titlebar = true 
+gtk-custom-css = ~/.config/ghostty/gtk.css
+gtk-tabs-location = bottom
+gtk-wide-tabs = false
+adw-toolbar-style = raised
