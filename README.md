@@ -1,10 +1,13 @@
-# Omarchy
+# ArchRice
 
-Turn a fresh Arch installation into a fully-configured, beautiful, and modern web development system based on Hyprland by running a single command. That's the one-line pitch for Omarchy (like it was for Omakub). No need to write bespoke configs for every essential tool just to get started or to be up on all the latest command-line tools. Omarchy is an opinionated take on what Linux can be at its best.
+Turn a fresh Arch installation into a fully-configured system based on Hyprland by running a single command. Fork of [omarchy.org](https://omarchy.org) with a few differences:
 
-Read more at [omarchy.org](https://omarchy.org).
+- Fish shell replaces zsh
+- Brave replaces Chromium
+- Ghostty replaces alacritty
+- Packages not needed for webdev removed.
 
 ## License
 
-Omarchy is released under the [MIT License](https://opensource.org/licenses/MIT).
+ArchRice—like Omarchy—is released under the [MIT License](https://opensource.org/licenses/MIT).
 
