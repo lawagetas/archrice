@@ -10,7 +10,7 @@
       "clock"
     ],
     "modules-right": [
-      "custom/dropbox",
+      "tray",
       "bluetooth",
       "network",
       "pulseaudio",
@@ -40,6 +40,14 @@
         "3": [],
         "4": [],
         "5": []
+      }
+    },
+    "tray": {
+      "icon-size": 20,
+      "spacing": 10,
+      "icons": {
+        "blueman": "bluetooth",
+        "TelegramDesktop": "$HOME/.local/share/icons/hicolor/16x16/apps/telegram.png"
       }
     },
     "cpu": {

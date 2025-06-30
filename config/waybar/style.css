@@ -3,7 +3,7 @@
   border-radius: 0;
   min-height: 0;
   font-family: CaskaydiaMono Nerd Font;
-  font-size: 12px;
+  font-size: 18px;
 }
 
 #workspaces {
@@ -23,6 +23,7 @@
 #network,
 #bluetooth,
 #pulseaudio,
+#tray,
 #clock {
   min-width: 12px;
   margin-right: 13px;
