@@ -11,7 +11,8 @@ Turn a fresh Arch installation into a fully-configured system based on Hyprland 
 
 Install a minimal profile of Arch Linux. Before exiting the chroot environment, run
 ```
-  ```pacman -Syu wget networkmanager```
+pacman -Syu wget networkmanager
+```
 
 Then, on first boot, run 
 ```
