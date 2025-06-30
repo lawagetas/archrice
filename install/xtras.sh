@@ -1,5 +1,5 @@
 yay -S --noconfirm --needed \
-  signal-desktop spotify dropbox-cli \
+  signal-desktop spotify dropbox libappindicator-gtk3 \
   obsidian typora libreoffice obs-studio kdenlive \
   pinta xournalpp
 
