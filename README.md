@@ -7,11 +7,15 @@ Turn a fresh Arch installation into a fully-configured system based on Hyprland 
 - Ghostty replaces alacritty
 - Packages not needed for webdev removed.
 
-## installation
+## Installation
 
-Install a minimal profile of Arch Linux. Before exiting the chroot environment, run `pacman -S wget networkmanager`. Then, on first boot, run 
+Install a minimal profile of Arch Linux. Before exiting the chroot environment, run
 ```
-wget archrice.wanax.xyz
+  ```pacman -Syu wget networkmanager```
+
+Then, on first boot, run 
+```
+wget archrice.wanax.xyz &&
 sh boot.sh
 ```
 
