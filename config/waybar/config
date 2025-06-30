@@ -45,10 +45,6 @@
     "tray": {
       "icon-size": 20,
       "spacing": 10,
-      "icons": {
-        "blueman": "bluetooth",
-        "TelegramDesktop": "$HOME/.local/share/icons/hicolor/16x16/apps/telegram.png"
-      }
     },
     "cpu": {
       "interval": 5,
@@ -74,6 +70,7 @@
       "on-click": "ghostty -e nmtui"
     },
     "battery": {
+      "interval": 5,
       "format": "{capacity}% {icon}",
       "format-discharging": "{icon}",
       "format-charging":    "{icon}",
