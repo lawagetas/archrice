@@ -1,12 +1,25 @@
 ascii_art='
-ArtHere
+
+██████  ██  ██████   ██████  ███████ ███    ██ ███████ ███████ 
+██   ██ ██ ██    ██ ██       ██      ████   ██ ██      ██      
+██   ██ ██ ██    ██ ██   ███ █████   ██ ██  ██ █████   ███████ 
+██   ██ ██ ██    ██ ██    ██ ██      ██  ██ ██ ██           ██ 
+██████  ██  ██████   ██████  ███████ ██   ████ ███████ ███████ 
+                                                               
+                                                               
+ █████  ██████   ██████ ██   ██ ██████  ██  ██████ ███████     
+██   ██ ██   ██ ██      ██   ██ ██   ██ ██ ██      ██          
+███████ ██████  ██      ███████ ██████  ██ ██      █████       
+██   ██ ██   ██ ██      ██   ██ ██   ██ ██ ██      ██          
+██   ██ ██   ██  ██████ ██   ██ ██   ██ ██  ██████ ███████     
+                                                               
 '
 
 echo -e "\n$ascii_art\n"
 
 pacman -Q git &>/dev/null || sudo pacman -Sy --noconfirm --needed git
 
-echo -e "\nCloning Omarchy..."
+echo -e "\nCloning ArchRice..."
 rm -rf ~/.local/share/archrice/
 git clone https://github.com/lawagetas/archrice.git ~/.local/share/archrice >/dev/null
 
