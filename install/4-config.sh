@@ -1,8 +1,8 @@
 # Copy over default configs
 cp -R ~/.local/share/archrice/config/* ~/.config/
 
-# Use default bashrc from Omarchy
-# echo "source ~/.local/share/archrice/default/bash/rc" >~/.bashrc
+# Use default bashrc
+echo "source ~/.local/share/archrice/default/bash/rc" >~/.bashrc
 
 # Setup Oh My ZSH
 # sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
