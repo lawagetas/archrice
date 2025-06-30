@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Link all the key config files to 's internal versions for quicker testing
+# Link all the key config files to archrice's internal versions for quicker testing
 ln -nsf ~/.local/share/archrice/config/hypr/hyprland.conf ~/.config/hypr/
 ln -nsf ~/.local/share/archrice/config/hypr/hypridle.conf ~/.config/hypr/
 ln -nsf ~/.local/share/archrice/config/waybar/config ~/.config/waybar/
