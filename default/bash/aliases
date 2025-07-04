@@ -36,7 +36,5 @@ alias gcad='git commit -a --amend'
 
 # Find packages without leaving the terminal
 alias yayf="yay -Slq | fzf --multi --preview 'yay -Sii {1}' --preview-window=down:75% | xargs -ro yay -S"
-
-# Other
-
-alias aursearch="yay -Slq | fzf --preview 'yay -Si {}' --height=97% --layout=reverse --bind 'enter:execute(yay -Si {} | less)'"
+# Original version from mike
+# alias aursearch="yay -Slq | fzf --preview 'yay -Si {}' --height=97% --layout=reverse --bind 'enter:execute(yay -Si {} | less)'"
