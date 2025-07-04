@@ -4,4 +4,4 @@ yay -S --noconfirm --needed \
   wl-clipboard fastfetch btop \
   man tldr less whois plocate \
   ghostty \
-  bash-completion
+  zsh
