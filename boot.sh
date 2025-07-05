@@ -26,5 +26,13 @@ git clone https://github.com/lawagetas/archrice.git ~/.local/share/archrice >/de
 echo -e "\nInstalling network manager (nm-tui and nm-applet)"
 sudo pacman -Sy --noconfirm networkmanager
 
+# Use custom branch if instructed
+if [[ -n "$OMARCHY_REF" ]]; then
+  echo -e "\eUsing branch: $OMARCHY_REF"
+  cd ~/.local/share/omarchy
+  git fetch origin "${OMARCHY_REF}" && git checkout "${OMARCHY_REF}"
+  cd -
+fi
+
 echo -e "\nInstallation starting..."
 source ~/.local/share/archrice/install.sh

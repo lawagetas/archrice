@@ -4,7 +4,9 @@ yay -S --noconfirm --needed \
   wl-clip-persist clipse \
   nautilus nautlus-dropbox sushi keepassxc \
   qt5-wayland qt6-wayland \
-  brave-bin vlc \
+  brave-bin \
+  mpv vlc \
   slack-desktop telegram-desktop \
   evince imv \
-  proton-vpn-gtk-app
+  proton-vpn-gtk-app \
+  localsend-bin

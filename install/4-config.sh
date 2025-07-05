@@ -1,12 +1,15 @@
 # Copy over default configs
 cp -R ~/.local/share/archrice/config/* ~/.config/
 
+# Ensure application directory exists for update-desktop-database
+mkdir -p ~/.local/share/applications
+
 # Use default bashrc
 echo "source ~/.local/share/archrice/default/bash/rc" >~/.bashrc
 
 # Setup Oh My ZSH
 sudo chsh -s $(which zsh) $USER
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh) --unattended"
 
 # Login directly as user, rely on disk encryption + hyprlock for security
 # sudo mkdir -p /etc/systemd/system/getty@tty1.service.d
