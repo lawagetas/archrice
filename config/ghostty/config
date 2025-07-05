@@ -3,3 +3,4 @@ gtk-custom-css = ~/.config/ghostty/gtk.css
 gtk-tabs-location = bottom
 gtk-wide-tabs = false
 adw-toolbar-style = raised
+window-padding-y = 2,8
