@@ -26,8 +26,7 @@ alias ....='cd ../../..'
 # Tools
 alias n='nvim'
 alias g='git'
-alias d='docker'
-alias r='rails'
+alias nvimdiff='nvim -d'
 
 # Git
 alias gcm='git commit -m'

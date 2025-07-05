@@ -35,6 +35,9 @@ if [[ -n "${ARCHRICE_USER_EMAIL//[[:space:]]/}" ]]; then
   git config --global user.email "$ARCHRICE_USER_EMAIL"
 fi
 
+# Set nvimdiff as default merge tool
+git config --global merge.tool "nvimdiff"
+
 # Set default XCompose that is triggered with CapsLock
 tee ~/.XCompose >/dev/null <<EOF
 include "%H/.local/share/archrice/default/xcompose"
