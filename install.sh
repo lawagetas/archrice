@@ -1,3 +1,4 @@
+#!/bin/bash
 # Exit immediately if a command exits with a non-zero status
 set -e
 
@@ -5,7 +6,10 @@ set -e
 trap 'echo "Archrice installation failed! You can retry by running: source ~/.local/share/archrice/install.sh"' ERR
 
 # Install everything
-for f in ~/.local/share/archrice/install/*.sh; do source "$f"; done
+for f in ~/.local/share/archrice/install/*.sh; do
+  gum log --time rfc822 --level debug "Running $f"
+  source "$f"
+done
 
 # Ensure locate is up to date now that everything has been installed
 sudo updatedb
