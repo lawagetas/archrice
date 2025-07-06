@@ -11,6 +11,9 @@ echo "source ~/.local/share/archrice/default/bash/rc" >~/.bashrc
 sudo chsh -s $(which zsh) $USER
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh) --unattended"
 
+# Link zsh custom config to ohmyzsh
+ln -nsf ~/.local/share/archrice/default/zsh/* ~/.oh-my-zsh/custom/
+
 # Login directly as user, rely on disk encryption + hyprlock for security
 # sudo mkdir -p /etc/systemd/system/getty@tty1.service.d
 # sudo tee /etc/systemd/system/getty@tty1.service.d/override.conf >/dev/null <<EOF
