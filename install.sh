@@ -6,8 +6,8 @@ set -e
 trap 'echo "Archrice installation failed! You can retry by running: source ~/.local/share/archrice/install.sh"' ERR
 
 # Install everything
-for f in ~/.local/share/archrice/install/*.sh; do
-  gum log --time rfc822 --level debug "Running $f"
+for f in ~/.local/share/omarchy/install/*.sh; do
+  gum log --time rfc822 --level debug "\nRunning installer: $f"
   source "$f"
 done
 
