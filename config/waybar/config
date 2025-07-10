@@ -110,7 +110,7 @@
     },
     "custom/power-menu": {
       "format": "󰐥",
-      "on-click": "~/.local/share/omarchy/bin/archrice-power-menu",
+      "on-click": "~/.local/share/archrice/bin/archrice-power-menu",
       "tooltip": false
     }
 }
