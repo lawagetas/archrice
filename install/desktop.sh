@@ -10,4 +10,5 @@ yay -S --noconfirm --needed \
   evince imv \
   proton-vpn-gtk-app \
   localsend-bin \
-  kwallet-pam
+  kwallet-pam \
+  discord
