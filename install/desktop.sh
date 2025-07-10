@@ -9,4 +9,5 @@ yay -S --noconfirm --needed \
   slack-desktop telegram-desktop signal \
   evince imv \
   proton-vpn-gtk-app \
-  localsend-bin
+  localsend-bin \
+  kwallet-pam
