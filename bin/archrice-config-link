@@ -5,4 +5,5 @@ ln -nsf ~/.local/share/archrice/config/hypr/hyprland.conf ~/.config/hypr/
 ln -nsf ~/.local/share/archrice/config/hypr/hypridle.conf ~/.config/hypr/
 ln -nsf ~/.local/share/archrice/config/hypr/autostart.conf ~/.config/hypr/
 ln -nsf ~/.local/share/archrice/config/waybar/config ~/.config/waybar/
+ln -nsf ~/.local/share/archrice/config/waybar/style.css ~/.config/waybar/
 ln -nsf ~/.local/share/archrice/config/wofi/config ~/.config/wofi/

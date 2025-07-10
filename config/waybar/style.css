@@ -18,11 +18,13 @@
 
 #custom-dropbox,
 #cpu,
+#power-profiles-daemon,
 #battery,
 #network,
 #bluetooth,
 #pulseaudio,
 #tray,
+#custom-power-menu,
 #clock {
   min-width: 12px;
   margin-right: 13px;
