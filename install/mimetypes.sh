@@ -1,4 +1,4 @@
-update-desktop-database ~/.local/share/applications
+update-desktop-database -v ~/.local/share/applications
 
 # Open all images with imv
 xdg-mime default imv.desktop image/png
