@@ -27,6 +27,7 @@ alias ....='cd ../../..'
 alias n='nvim'
 alias g='git'
 alias nvimdiff='nvim -d'
+alias cat='bat'
 
 # Git
 alias gcm='git commit -m'
