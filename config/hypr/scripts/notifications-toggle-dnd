@@ -1,10 +1,13 @@
 #!/bin/bash
 
+ENABLED=""
+DISABLED=""
 # Toggle DND
 if [ "$(makoctl mode)" == "do-not-disturb" ]; then
-  # DND OFF
-  makoctl mode -r do-not-disturb && echo "🔔"
+  makoctl mode -r do-not-disturb
 else
   # DND ON
-  makoctl mode -s do-not-disturb && echo "🔕"
+  makoctl mode -s do-not-disturb >/dev/null
 fi
+
+sleep 0.1

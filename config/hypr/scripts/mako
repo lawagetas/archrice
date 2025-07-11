@@ -1,7 +1,10 @@
 #!/bin/bash
 
+ENABLED=""
+DISABLED=""
+
 if [ "$(makoctl mode)" == "do-not-disturb" ]; then
-  echo "🔕"
+  echo $DISABLED
 else
-  echo "🔔"
+  echo $ENABLED
 fi
