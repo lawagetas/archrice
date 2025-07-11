@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# Toggle DND
+	if [ "$(makoctl mode)" == "dnd" ]; then
+	# DND OFF
+		makoctl mode -r dnd && echo "DND Mode OFF"
+	else
+	# DND ON
+		makoctl mode -s dnd && echo "DND Mode ON"
+	fi

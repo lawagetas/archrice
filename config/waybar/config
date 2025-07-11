@@ -17,6 +17,7 @@
       "power-profiles-daemon",
       "cpu",
       "battery",
+      "custom/mako",
       "custom/power-menu"
     ],
     "hyprland/workspaces": {
@@ -118,6 +119,16 @@
         "balanced":     "󰊚",
         "performance":  "󰡴"
       }
+    },
+    "custom/mako": {
+      "on-click": "~/.config/hypr/scripts/notifications-toggle-dnd",
+    	"format": "DND {icon}",
+	    "format-icons": {
+        "activated": " ",
+        "deactivated": " ",
+  	  },
+      "tooltip": true,
+	    "tooltip-format": "Toggle DND on/off",
     },
     "custom/power-menu": {
       "format": "󰐥",
