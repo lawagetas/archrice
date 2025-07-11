@@ -15,7 +15,7 @@ if [ -n "$(lspci | grep -i 'nvidia')" ]; then
   if echo "$(lspci | grep -i 'nvidia')" | grep -q -E "RTX [2-9][0-9]|GTX 16"; then
     NVIDIA_DRIVER_PACKAGE="nvidia-open-dkms"
   else
-    NVIDIA_DRIVER_PACKAGE="nvidia-dkms"
+    NVIDIA_DRIVER_PACKAGE="nvidia" #DO NOT REMOVE THIS. NVIDIA-DKMS does not work
   fi
 
   # Check which kernel is installed and set appropriate headers package
