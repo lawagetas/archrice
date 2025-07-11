@@ -121,14 +121,11 @@
       }
     },
     "custom/mako": {
+      "exec": "~/.config/hypr/scripts/mako",
       "on-click": "~/.config/hypr/scripts/notifications-toggle-dnd",
-    	"format": "DND {icon}",
-	    "format-icons": {
-        "activated": " ",
-        "deactivated": " ",
-  	  },
       "tooltip": true,
 	    "tooltip-format": "Toggle DND on/off",
+      "restart-internval": 1,
     },
     "custom/power-menu": {
       "format": "󰐥",

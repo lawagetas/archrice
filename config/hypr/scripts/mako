@@ -1,0 +1,7 @@
+#!/bin/bash
+
+if [ "$(makoctl mode)" == "do-not-disturb" ]; then
+  echo "🔕"
+else
+  echo "🔔"
+fi
