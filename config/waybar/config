@@ -12,7 +12,6 @@
     "modules-right": [
       "tray",
       "bluetooth",
-      "network",
       "pulseaudio",
       "power-profiles-daemon",
       "cpu",
