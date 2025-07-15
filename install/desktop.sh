@@ -10,5 +10,5 @@ yay -S --noconfirm --needed \
   evince imv \
   proton-vpn-gtk-app \
   localsend-bin \
-  gnome-keyring \
+  gnome-keyring seahorse \
   discord
