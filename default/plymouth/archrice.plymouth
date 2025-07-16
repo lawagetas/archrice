@@ -1,9 +1,9 @@
 [Plymouth Theme]
-Name=Omarchy
-Description=Omarchy splash screen.
+Name=Archrice
+Description=Archrice splash screen.
 ModuleName=script
 
 [script]
-ImageDir=/usr/share/plymouth/themes/omarchy
-ScriptFile=/usr/share/plymouth/themes/omarchy/omarchy.script
+ImageDir=/usr/share/plymouth/themes/archrice
+ScriptFile=/usr/share/plymouth/themes/archrice/archrice.script
 ConsoleLogBackgroundColor=0x1a1b26

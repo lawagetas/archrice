@@ -13,6 +13,6 @@ if [ -f "$HOME/.config/environment.d/fcitx.conf" ]; then
   sed -i 's/^GTK_IM_MODULE=fcitx$//' "$HOME/.config/environment.d/fcitx.conf"
 fi
 
-omarchy-refresh-plymouth
+archrice-refresh-plymouth
 
-source ~/.local/share/omarchy/install/login.sh
+source ~/.local/share/archrice/install/login.sh

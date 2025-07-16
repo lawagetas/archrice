@@ -1,4 +1,4 @@
-if [ -z "$OMARCHY_BARE" ]; then
+if [ -z "$ARCHRICE_BARE" ]; then
   yay -S --noconfirm --needed \
     gnome-calculator gnome-keyring signal-desktop \
     slack-desktop telegram-desktop \
