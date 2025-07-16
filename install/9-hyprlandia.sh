@@ -5,4 +5,4 @@ yay -S --noconfirm --needed \
   nwg-displays
 
 # Commenting out for now - make sure exec Hyprland is somewhere post merge. [TODO]
-# echo "[[ -z \$DISPLAY && \$(tty) == /dev/tty1 ]] && exec Hyprland" >>~/.zprofile
+echo "[[ -z \$DISPLAY && \$(tty) == /dev/tty1 ]] && uwsm start -- hyprland.desktop" >>~/.zprofile
