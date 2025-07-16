@@ -1,2 +1,2 @@
-echo "Copy desktop file for new Omarchy TUI"
-cp ~/.local/share/omarchy/applications/omarchy.desktop ~/.local/share/applications/
+echo "Copy desktop file for new Archrice TUI"
+cp ~/.local/share/archrice/applications/archrice.desktop ~/.local/share/applications/

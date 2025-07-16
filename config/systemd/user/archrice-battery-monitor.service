@@ -1,0 +1,8 @@
+[Unit]
+Description=Archrice Battery Monitor Check
+After=graphical-session.target
+
+[Service]
+Type=oneshot
+ExecStart=%h/.local/share/archrice/bin/archrice-battery-monitor
+Environment=DISPLAY=:0
