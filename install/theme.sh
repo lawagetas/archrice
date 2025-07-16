@@ -18,8 +18,6 @@ ln -snf ~/.config/archrice/backgrounds/tokyo-night ~/.config/archrice/current/ba
 ln -snf ~/.config/archrice/current/backgrounds/1-Pawel-Czerwinski-Abstract-Purple-Blue.jpg ~/.config/archrice/current/background
 
 # Set specific app links for current theme
-ln -snf ~/.config/archrice/current/theme/hyprlock.conf ~/.config/hypr/hyprlock.conf
-ln -snf ~/.config/archrice/current/theme/wofi.css ~/.config/wofi/style.css
 ln -snf ~/.config/archrice/current/theme/neovim.lua ~/.config/nvim/lua/plugins/theme.lua
 mkdir -p ~/.config/btop/themes
 ln -snf ~/.config/archrice/current/theme/btop.theme ~/.config/btop/themes/current.theme

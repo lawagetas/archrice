@@ -4,7 +4,10 @@ yay -S --noconfirm power-profiles-daemon
 
 if ls /sys/class/power_supply/BAT* &>/dev/null; then
   # This computer runs on a battery
-  powerprofilesctl set power-saver || true
+  powerprofilesctl set power-save || true
+  
+  # Enable battery monitoring timer for low battery notifications
+  systemctl --user enable --now archrice-battery-monitor.timer || true
 else
   # This computer runs on power outlet
   powerprofilesctl set performance || true
