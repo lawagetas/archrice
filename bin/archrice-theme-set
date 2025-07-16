@@ -26,7 +26,8 @@ ln -nsf "$BACKGROUND_PATH" "$HOME/.config/archrice/current/backgrounds"
 ln -nsf "$THEME_PATH" "$CURRENT_THEME_DIR"
 
 # Trigger alacritty config reload
-touch "$HOME/.config/alacritty/alacritty.toml"
+# touch "$HOME/.config/alacritty/alacritty.toml"
+# [TODO] make this work with ghostty
 
 # Restart components to apply new theme
 pkill -SIGUSR2 waybar
