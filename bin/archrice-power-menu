@@ -7,7 +7,7 @@
 show_power_menu() {
   local menu_options="\u200B Lock
 \u200C󰤄 Suspend
-\u200D Relaunch
+\u200D Exit
 \u2060󰜉 Restart
 \u2063󰐥 Shutdown"
   local selection=$(echo -e "$menu_options" | wofi --show dmenu --prompt "Power Options" --width 150 --height 195 -O alphabetical --style ~/.local/share/archrice/default/wofi/select.css)
@@ -15,7 +15,7 @@ show_power_menu() {
   case "$selection" in
   *Lock*) hyprlock ;;
   *Suspend*) systemctl suspend ;;
-  *Relaunch*) uwsm stop ;;
+  *Exit*) uwsm stop && exit ;;
   *Restart*) systemctl reboot ;;
   *Shutdown*) systemctl poweroff ;;
   esac
