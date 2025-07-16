@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if gum confirm "Refresh Plymouth theme? This will replace your current startup screen with Omarchy defaults."; then
-  sudo cp ~/.local/share/omarchy/default/plymouth/* /usr/share/plymouth/themes/omarchy/
-  sudo plymouth-set-default-theme -R omarchy
+if gum confirm "Refresh Plymouth theme? This will replace your current startup screen with Archrice defaults."; then
+  sudo cp ~/.local/share/archrice/default/plymouth/* /usr/share/plymouth/themes/archrice/
+  sudo plymouth-set-default-theme -R archrice
 fi
